@@ -1,0 +1,7 @@
+module Sem6Lab5
+{
+  interface Taskable
+  {
+    string getResult();
+    };
+};

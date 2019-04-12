@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="antTargetsPack">
+
+    <target name="idl_compile">
+        <exec executable="idlj">
+            <arg line="-fall Sem6Lab5.idl"/>
+        </exec>
+    </target>
+
+    <target name="orbd_start">
+        <exec executable="cmd.exe">
+            <arg line="/c start orbd"/>
+        </exec>
+    </target>
+
+</project>
